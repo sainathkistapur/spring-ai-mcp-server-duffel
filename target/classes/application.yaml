@@ -1,0 +1,16 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: springai.mcp.server.duffel
+
+  ai:
+    mcp:
+      server:
+        name: mcp-server-duffel
+        version: 1.0.0
+        type: SYNC
+
+duffel:
+  api-key: ${DUFFEL_AP_KEY}
+  flight-url: "https://api.duffel.com/air/offer_requests"
